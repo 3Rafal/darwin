@@ -14,9 +14,6 @@
       pkgs.pkg-config
       pkgs.pcre
       pkgs.direnv
-
-      # ocaml
-      pkgs.opam
     ];
   
   homebrew.enable = true;
@@ -30,6 +27,8 @@
       "with-retro-emacs-logo-icon"
       ];
     }
+
+    "opam"
   ];
 
   services.nix-daemon.enable = true;
